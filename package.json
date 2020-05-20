@@ -1,0 +1,38 @@
+{
+  "main": "Led_Strip_Bluetooth",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "android-build": "cd ./android && ./gradlew app:assembleRelease && cd ..",
+    "ios": "react-native  run-ios",
+    "eject": "react-native eject",
+    "test": "jest",
+    "postinstall": "npx jetify"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "^0.59.9",
+    "react-native-ble-plx": "^1.1.0",
+    "react-native-gesture-handler": "^1.5.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-paper": "^3.2.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "^0.11.7",
+    "react-navigation": "^3.12.0",
+    "react-navigation-stack": "^1.10.3",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0",
+    "jest-expo": "^35.0.0",
+    "jetifier": "^1.6.2"
+  },
+  "private": true
+}
